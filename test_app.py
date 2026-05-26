@@ -1,5 +1,5 @@
 """Testing the mathematical operation that are done in the app"""
-from app import add,subtract,multiply,divide
+from app import add,subtract,multiply,divide,power
 
 def test_add():
     """Testing the add function"""
@@ -16,4 +16,7 @@ def test_multiply():
 def test_divide():
     """Testing the divide function"""
     assert divide(50,5)==10
-    
+
+def test_power():
+    """Testing the power function"""
+    assert power(2,3)==8

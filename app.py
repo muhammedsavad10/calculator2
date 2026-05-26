@@ -16,3 +16,7 @@ def multiply(a,b):
 def divide(a,b):
     """return the value recieved by dividing 2 numbers"""
     return a/b
+
+def power(a,b):
+    """Return the power value"""
+    return a**b
