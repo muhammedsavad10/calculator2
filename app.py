@@ -1,5 +1,4 @@
-"""Building basic calculator"""
-
+"""Basic calculator application."""
 
 
 def add(a,b):
